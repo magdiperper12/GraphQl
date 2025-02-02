@@ -23,8 +23,8 @@ const users = [
 	},
 ];
 const schema = buildSchema(`
-	type User{
-	 id: String ,
+    type User{
+     id: String ,
     name: String ,
     age: String 
 }
